@@ -1,13 +1,14 @@
-import TodoList from './components/TodoList';
-import "bootstrap/dist/css/bootstrap.min.css"
-import './App.css';
+import React from "react";
+import TodoApp from "./components/TodoApp";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-        <TodoList/>
+    <div>
+      <TodoApp />
+      
     </div>
   );
-}
+};
 
 export default App;
